@@ -1,0 +1,75 @@
+.page-container {
+  padding: 40px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* 標題 */
+h2 {
+  font-size: 26px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #1e3a8a;
+}
+
+/* 外框容器（白色圓角卡片） */
+.form-container {
+  background-color: white;
+  border-radius: 12px;
+  padding: 20px 30px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+  max-width: 600px;
+  width: 100%;
+}
+
+/* 表單欄位 */
+.form-group {
+  margin-bottom: 15px;
+  display: flex;
+  align-items: center;
+}
+
+.form-group label {
+  width: 120px;
+  font-weight: bold;
+  color: #374151;
+}
+
+.form-group input[type="text"] {
+  flex: 1;
+  padding: 8px;
+  font-size: 14px;
+  border: 1px solid #cbd5e1;
+  border-radius: 6px;
+  background-color: white;
+}
+
+/* 讓檔案上傳維持原生按鈕，不加白框 */
+.form-group input[type="file"] {
+  border: none;
+  background: none;
+  padding: 0;
+  font-size: 14px;
+}
+
+/* 按鈕群組 */
+.button-group {
+  margin-top: 20px;
+}
+
+.button-group button {
+  padding: 10px 18px;
+  background-color: #2563eb;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  margin-right: 10px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: background-color 0.3s;
+}
+
+.button-group button:hover {
+  background-color: #1d4ed8;
+}
